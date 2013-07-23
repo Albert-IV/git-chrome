@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Git Chrome",
-  "description": "This extension demonstrates a browser action with kittens.",
+  "description": "This extension aims to re-create common functionality of git.",
   "version": "1.0",
 
   "permissions": [
