@@ -1,8 +1,13 @@
-<html>
+<html ng-app ng-csp>
 <head>
   <script src="/js/angular-min.js"></script>
+  <script src="/js/controllers.js"></script>
 </head>
-<body>
-  <h1>Sup bro?</h1>
+<body data-ng-controller="gcController">
+  <h1>Git Chrome</h1>
+  <div class="container" data-ng-repeat="repo in repos">
+    <h2>{{ repo.name }}</h2>
+    <h5>{{ repo.subtitle }}</h5>
+  </div>
 </body>
 </html>
